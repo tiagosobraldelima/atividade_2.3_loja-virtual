@@ -15,6 +15,11 @@
             width: 64px;
             height: 64px;
         }
+
+        /* imagem e nome do produto abrem o modal */
+        .abre-modal {
+            cursor: pointer;
+        }
     </style>
 </head>
 
@@ -194,54 +199,54 @@
 
                 <!-- produto 1 -->
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal1">
+                    <div class="card h-100">
                         <span class="badge bg-danger position-absolute m-2">Promoção</span>
-                        <img src="https://placehold.co/600x400?text=Fone" class="card-img-top" alt="Fone Bluetooth">
+                        <img src="https://placehold.co/600x400?text=Fone" class="card-img-top abre-modal" data-bs-toggle="modal" data-bs-target="#modal1" alt="Fone Bluetooth">
                         <div class="card-body">
-                            <h5 class="card-title">Fone de ouvido Bluetooth</h5>
+                            <h5 class="card-title abre-modal" data-bs-toggle="modal" data-bs-target="#modal1">Fone de ouvido Bluetooth</h5>
                             <p class="text-muted mb-0"><del>R$ 199,90</del></p>
                             <p class="fs-5 fw-bold">R$ 149,90</p>
-                            <button class="btn btn-dark w-100">Adicionar ao carrinho</button>
+                            <button type="button" class="btn btn-dark w-100">Adicionar ao carrinho</button>
                         </div>
                     </div>
                 </div>
 
                 <!-- produto 2 -->
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal2">
-                        <img src="https://placehold.co/600x400?text=Relogio" class="card-img-top" alt="Smartwatch">
+                    <div class="card h-100">
+                        <img src="https://placehold.co/600x400?text=Relogio" class="card-img-top abre-modal" data-bs-toggle="modal" data-bs-target="#modal2" alt="Smartwatch">
                         <div class="card-body">
-                            <h5 class="card-title">Smartwatch</h5>
+                            <h5 class="card-title abre-modal" data-bs-toggle="modal" data-bs-target="#modal2">Smartwatch</h5>
                             <p class="text-muted mb-0">&nbsp;</p>
                             <p class="fs-5 fw-bold">R$ 89,90</p>
-                            <button class="btn btn-dark w-100">Adicionar ao carrinho</button>
+                            <button type="button" class="btn btn-dark w-100">Adicionar ao carrinho</button>
                         </div>
                     </div>
                 </div>
 
                 <!-- produto 3 -->
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal3">
+                    <div class="card h-100">
                         <span class="badge bg-danger position-absolute m-2">Promoção</span>
-                        <img src="https://placehold.co/600x400?text=Mochila" class="card-img-top" alt="Mochila">
+                        <img src="https://placehold.co/600x400?text=Mochila" class="card-img-top abre-modal" data-bs-toggle="modal" data-bs-target="#modal3" alt="Mochila">
                         <div class="card-body">
-                            <h5 class="card-title">Mochila Escolar</h5>
+                            <h5 class="card-title abre-modal" data-bs-toggle="modal" data-bs-target="#modal3">Mochila Escolar</h5>
                             <p class="text-muted mb-0"><del>R$ 129,90</del></p>
                             <p class="fs-5 fw-bold">R$ 99,90</p>
-                            <button class="btn btn-dark w-100">Adicionar ao carrinho</button>
+                            <button type="button" class="btn btn-dark w-100">Adicionar ao carrinho</button>
                         </div>
                     </div>
                 </div>
 
                 <!-- produto 4 -->
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal4">
-                        <img src="https://placehold.co/600x400?text=Tenis" class="card-img-top" alt="Tênis">
+                    <div class="card h-100">
+                        <img src="https://placehold.co/600x400?text=Tenis" class="card-img-top abre-modal" data-bs-toggle="modal" data-bs-target="#modal4" alt="Tênis">
                         <div class="card-body">
-                            <h5 class="card-title">Tênis de Corrida</h5>
+                            <h5 class="card-title abre-modal" data-bs-toggle="modal" data-bs-target="#modal4">Tênis de Corrida</h5>
                             <p class="text-muted mb-0">&nbsp;</p>
                             <p class="fs-5 fw-bold">R$ 249,90</p>
-                            <button class="btn btn-dark w-100">Adicionar ao carrinho</button>
+                            <button type="button" class="btn btn-dark w-100">Adicionar ao carrinho</button>
                         </div>
                     </div>
                 </div>
@@ -275,7 +280,7 @@
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title">Relógio Digital</h5>
+                        <h5 class="modal-title">Smartwatch</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
                     <div class="modal-body">
